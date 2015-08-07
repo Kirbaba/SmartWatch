@@ -15,7 +15,7 @@
 
 	<header class="header">		
 		<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-			<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+			<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
 				<h1>Smart Watch</h1>
 				<p>умные часы</p>
 			</div>
@@ -37,7 +37,7 @@
 	</header>
 
 	<section class="slide">
-		<div class="container">
+		<div class="contain">
 			<h1><b>Smart-часы</b> GT-08 с видео-камерой
 			со скидкой 50% всего <b>2100</b> грн.</h1>
 			<a href="#nowhere" class="slide__but">Оформить заказ по акции</a>
@@ -45,19 +45,19 @@
 	</section>
 
 	<section class="order">
-		<div class="container">
+		<div class="contain">
 			<h1>Оформите заказ прямо сейчас
 			и получите <b>скидку 50 %</b></h1>
 			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
 					<div class="order__clock">
 						<div class="order__clock__price"></div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
 					<div class="order__options"></div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
 					<div class="order__form">
 						<h3>Закажите smart-часы GT-08
 						прямо <b>сейчас</b>, чтобы <br>
@@ -73,6 +73,15 @@
 				</div>
 			</div>
 		</div>		
+	</section>
+
+	<section class="video">
+		<div class="contain">
+			<h1>Посмотрите видео-обзор <b>Smart-часов GT-08</b></h1>
+			<div class="video__box">
+				<iframe width="585" height="360" src="https://www.youtube.com/embed/CkhLoaAQYxY" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
 	</section>
     
 <?php wp_footer(); ?>
