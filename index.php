@@ -43,6 +43,37 @@
 			<a href="#nowhere" class="slide__but">Оформить заказ по акции</a>
 		</div>
 	</section>
+
+	<section class="order">
+		<div class="container">
+			<h1>Оформите заказ прямо сейчас
+			и получите <b>скидку 50 %</b></h1>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="order__clock">
+						<div class="order__clock__price"></div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="order__options"></div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="order__form">
+						<h3>Закажите smart-часы GT-08
+						прямо <b>сейчас</b>, чтобы <br>
+						<b>получить скидку 50 %</b></h3>
+						<form>
+							<input type="text" class="order__form__input">
+							<input type="text" class="order__form__input">
+							<input type="phone" class="order__form__input">
+							<input type="submit" class="order__form__sub" value="Заказать сейчас">
+						</form>
+						<p>100% гарантии<br>конфиденциальности данных</p>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</section>
     
 <?php wp_footer(); ?>
 </body>
