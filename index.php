@@ -84,6 +84,21 @@
 		</div>
 	</section>
     
+    <section class="photo">
+    	<h1>Посмотрите фото-обзор <b>Smart-часов GT-08</b></h1>
+    	<div class="contain">
+    	 <div class="photo__box">
+		      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/pic1.png" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/pic1.png" alt=""/></a>
+		      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/pic2.png" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/pic2.png" alt="" /></a>
+		      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/pic3.png" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/pic3.png" alt="" /></a>
+		      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/pic4.png" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/pic4.png" alt="" /></a>
+		      	      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/pic5.png" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/pic5.png" alt="" /></a>
+		      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/pic6.png" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/pic6.png" alt="" /></a>
+	    </div>
+	    <a href="#nowhere" class="photo__but">Заказать сейчас</a>    
+		</div>
+    </section>
+
 <?php wp_footer(); ?>
 </body>
 </html>

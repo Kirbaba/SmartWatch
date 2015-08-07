@@ -214,19 +214,10 @@ ul {
 
 .order {
   display: block;
-  position: relative; }
-  .order:after {
-    content: "";
-    position: absolute;
-    width: 55%;
-    height: 0;
-    right: 0;
-    bottom: -90px;
-    margin-left: -54px;
-    border: 45px solid transparent;
-    border-top-color: #fff;
-    border-right: 0;
-    z-index: 1; }
+  position: relative;
+  border-bottom: 50px solid #fff;
+  border-image: url("../img/bordBot.png") 70;
+  border-top: 0; }
   .order h1 {
     display: block;
     width: 75%;
@@ -303,7 +294,7 @@ ul {
       -o-background-clip: padding-box;
       background-clip: padding-box;
       background-color: #fff; }
-    .order__form__sub {
+    .order__form__sub, .photo__but {
       display: block;
       margin: 20px 0;
       width: 100%;
@@ -333,7 +324,7 @@ ul {
       -ms-transition: all 0.5s linear;
       -o-transition: all 0.5s linear;
       transition: all 0.5s linear; }
-      .order__form__sub:hover {
+      .order__form__sub:hover, .photo__but:hover {
         text-decoration: none;
         outline: none;
         color: #fff;
@@ -341,7 +332,7 @@ ul {
         background-image: -o-linear-gradient(bottom, #04689b 0%, #1a92cd 100%);
         background-image: -webkit-linear-gradient(bottom, #04689b 0%, #1a92cd 100%);
         background-image: linear-gradient(bottom, #04689b 0%, #1a92cd 100%); }
-      .order__form__sub:active, .order__form__sub:focus {
+      .order__form__sub:active, .photo__but:active, .order__form__sub:focus, .photo__but:focus {
         outline: none; }
     .order__form p {
       text-align: center;
@@ -386,5 +377,26 @@ ul {
     .video__box iframe {
       display: block;
       float: right; }
+
+.photo {
+  display: block;
+  position: relative;
+  border-bottom: 50px solid #fff;
+  border-image: url("../img/bordBot.png") 70;
+  border-top: 0; }
+  .photo__box {
+    margin: 0 39px; }
+  .photo__but {
+    float: right;
+    width: 330px;
+    margin-right: 54px; }
+  .photo h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #272727;
+    font-family: "LatoLight";
+    margin: 50px 0; }
+    .photo h1 b {
+      font-family: "LatoBold"; }
 
 /*# sourceMappingURL=style.css.map */

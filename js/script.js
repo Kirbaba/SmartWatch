@@ -54,3 +54,13 @@ $(function() {
     });
 });
 
+jQuery(document).ready(function($) {
+    var img = $('.example-image');
+    img.each(function(){
+    var heightEl = $(this).height();
+    var topEl = (330 - heightEl)/2 ;
+    $(this).css({
+        top: topEl
+    });
+    });
+});

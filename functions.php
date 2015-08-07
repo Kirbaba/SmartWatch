@@ -2,9 +2,11 @@
 
 function add_style(){
     wp_enqueue_style( 'my-bootstrap-extension', get_template_directory_uri() . '/css/bootstrap.css', array(), '1');
+    wp_enqueue_style( 'lightbox', get_template_directory_uri() . '/css/lightbox.css', array('my-bootstrap-extension'), '1');
     wp_enqueue_style( 'my-styles', get_template_directory_uri() . '/css/style.css', array('my-bootstrap-extension'), '1');
     wp_enqueue_style( 'my-sass', get_template_directory_uri() . '/sass/style.css', array('my-bootstrap-extension'), '1');
     wp_enqueue_style( 'fotorama', get_template_directory_uri() . '/css/fotorama.css', array('my-bootstrap-extension'), '1');
+    
 }
 
 function add_script(){
@@ -13,8 +15,9 @@ function add_script(){
     wp_enqueue_script( 'my-bootstrap-extension', get_template_directory_uri() . '/js/bootstrap.js', array(), '1');
     wp_enqueue_script( 'my-script', get_template_directory_uri() . '/js/script.js', array(), '1');
     wp_enqueue_script( 'fotorama-js', get_template_directory_uri() . '/js/fotorama.js', array(), '1');
-
     
+    wp_enqueue_script( 'setup-js', get_template_directory_uri() . '/js/lightbox-plus-jquery.min.js', array(), '1', true);
+
 }
 
 add_action( 'wp_enqueue_scripts', 'add_style' );
