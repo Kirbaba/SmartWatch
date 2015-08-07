@@ -1,0 +1,74 @@
+.header {
+	height: 150px;
+	background-color: #000;
+	display: block;
+	position: relative;
+	padding: 15px;
+	&:after {
+		content: "";
+		position: absolute;
+		width: 55%;
+		height: 0;
+		right: 0;
+		bottom: -90px;
+		margin-left: -54px;
+		border: 45px solid transparent;
+		border-top-color: #000;
+		border-right: 0;
+		z-index: 1;
+	} 
+
+	h1 {
+		font-family: "ImpactRegular";
+		color: #fff;
+		font-size: 50px;
+		margin: 0;
+		text-align: right;
+	}
+
+	p {
+		color: #fff;
+		font-family: "LatoLight";
+		text-align: right;
+		font-size: 20px;
+	}
+
+	&__phones {
+		display: block;
+		float: right;
+		padding: 0 15px;
+		p {
+			font-family: "LatoRegular";
+			font-size: 20px;
+			color: #fff;
+		}
+	}
+	h4 {
+		color: #fff;
+		font-family: "LatoBold";
+		font-size: 23px;
+		padding-left: 25px;
+	}
+
+	&__but {
+		background: rgba(255, 255, 255, 0);
+		border: 1px solid #fff;
+		text-transform: uppercase;
+		width: 180px;
+		height: 31px;
+		display: block;
+		border: 1px solid #fff;
+		@include border-radius(5px / 3px 3px 3px 3px);
+		@include background-clip(padding-box);
+		text-align: center;
+		line-height: 31px;
+		text-decoration: none;
+		margin: 5px 15px;
+		@include transition(0.5s);
+		&:hover {
+			text-decoration: none;
+			background: rgba(255, 255, 255, 1);
+		}
+	}
+		
+}

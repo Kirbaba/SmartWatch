@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "ImpactRegular";
+  src: url("../fonts/ImpactRegular.eot");
+  src: url("../fonts/ImpactRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/ImpactRegular.woff") format("woff"), url("../fonts/ImpactRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+/* font-family: "LatoRegular"; */
+@font-face {
+  font-family: "LatoRegular";
+  src: url("../fonts/LatoRegular/LatoRegular.eot");
+  src: url("../fonts/LatoRegular/LatoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/LatoRegular/LatoRegular.woff") format("woff"), url("../fonts/LatoRegular/LatoRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+/* font-family: "LatoBold"; */
+@font-face {
+  font-family: "LatoBold";
+  src: url("../fonts/LatoBold/LatoBold.eot");
+  src: url("../fonts/LatoBold/LatoBold.eot?#iefix") format("embedded-opentype"), url("../fonts/LatoBold/LatoBold.woff") format("woff"), url("../fonts/LatoBold/LatoBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+/* font-family: "LatoItalic"; */
+@font-face {
+  font-family: "LatoItalic";
+  src: url("../fonts/LatoItalic/LatoItalic.eot");
+  src: url("../fonts/LatoItalic/LatoItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/LatoItalic/LatoItalic.woff") format("woff"), url("../fonts/LatoItalic/LatoItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+/* font-family: "LatoLight"; */
+@font-face {
+  font-family: "LatoLight";
+  src: url("../fonts/LatoLight/LatoLight.eot");
+  src: url("../fonts/LatoLight/LatoLight.eot?#iefix") format("embedded-opentype"), url("../fonts/LatoLight/LatoLight.woff") format("woff"), url("../fonts/LatoLight/LatoLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+/* font-family: "LatoBoldItalic"; */
+@font-face {
+  font-family: "LatoBoldItalic";
+  src: url("../fonts/LatoBoldItalic/LatoBoldItalic.eot");
+  src: url("../fonts/LatoBoldItalic/LatoBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/LatoBoldItalic/LatoBoldItalic.woff") format("woff"), url("../fonts/LatoBoldItalic/LatoBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+/* font-family: "LatoLightItalic"; */
+@font-face {
+  font-family: "LatoLightItalic";
+  src: url("../fonts/LatoLightItalic/LatoLightItalic.eot");
+  src: url("../fonts/LatoLightItalic/LatoLightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/LatoLightItalic/LatoLightItalic.woff") format("woff"), url("../fonts/LatoLightItalic/LatoLightItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f6f6f6; }
+
+.contain {
+  width: 1167px;
+  display: block;
+  margin: 0 auto;
+  position: relative; }
+  .contain:before, .contain:after {
+    display: table;
+    content: " "; }
+  .contain:after {
+    clear: both; }
+
+a {
+  text-decoration: none; }
+  a:hover, a:focus, a:active {
+    outline: none; }
+
+ul {
+  list-style-type: none; }
+
+.header {
+  height: 150px;
+  background-color: #000;
+  display: block;
+  position: relative;
+  padding: 15px; }
+  .header:after {
+    content: "";
+    position: absolute;
+    width: 55%;
+    height: 0;
+    right: 0;
+    bottom: -90px;
+    margin-left: -54px;
+    border: 45px solid transparent;
+    border-top-color: #000;
+    border-right: 0;
+    z-index: 1; }
+  .header h1 {
+    font-family: "ImpactRegular";
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+    text-align: right; }
+  .header p {
+    color: #fff;
+    font-family: "LatoLight";
+    text-align: right;
+    font-size: 20px; }
+  .header__phones {
+    display: block;
+    float: right;
+    padding: 0 15px; }
+    .header__phones p {
+      font-family: "LatoRegular";
+      font-size: 20px;
+      color: #fff; }
+  .header h4 {
+    color: #fff;
+    font-family: "LatoBold";
+    font-size: 23px;
+    padding-left: 25px; }
+  .header__but {
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    width: 180px;
+    height: 31px;
+    display: block;
+    border: 1px solid #fff;
+    -webkit-border-radius: 5px/3px 3px 3px 3px;
+    -moz-border-radius: 5px/3px 3px 3px 3px;
+    -ms-border-radius: 5px/3px 3px 3px 3px;
+    border-radius: 5px/3px 3px 3px 3px;
+    -o-background-clip: padding-box;
+    background-clip: padding-box;
+    text-align: center;
+    line-height: 31px;
+    text-decoration: none;
+    margin: 5px 15px;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+    .header__but:hover {
+      text-decoration: none;
+      background: white; }
+
+/*# sourceMappingURL=style.css.map */
