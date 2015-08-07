@@ -3,7 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
-	background-color: #f6f6f6;
+	background-color: #fff;
 }
 
 .contain {
@@ -19,6 +19,10 @@ body {
 	&:after{
 		clear: both;
 	}
+}
+
+.container {
+	width: 1167px;
 }
 
 a {

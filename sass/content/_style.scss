@@ -1,0 +1,65 @@
+.slide {
+	display: block;
+	position: relative;
+	padding: 205px 0 150px;
+	background-image: url("../img/bg1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	h1 {
+		color: #fff;
+		font-size: 50px;
+		display: block;
+		width: 900px;
+		margin: 0 auto;
+		font-family: "LatoLight";
+		text-align: center;
+		b {
+			font-family: "LatoBold";
+		}
+	}
+
+	&__but {
+		display: block;
+		width: 327px;
+		height: 49px;
+		margin: 25px auto;
+		@include border-radius(5px);
+		@include background-clip(padding-box);
+		background-color: #272727;
+		@include box-shadow(1px, 2px, 4px, rgba(0,0,0,.94));
+		width: 327px;		
+		background-image: -moz-linear-gradient(bottom, #0589cd 0%, #35abe5 100%);
+		background-image: -o-linear-gradient(bottom, #0589cd 0%, #35abe5 100%);
+		background-image: -webkit-linear-gradient(bottom, #0589cd 0%, #35abe5 100%);
+		background-image: linear-gradient(bottom, #0589cd 0%, #35abe5 100%);
+		color: #fff;
+		font-weight: bold;
+		font-size: 21px;
+		line-height: 49px;
+		text-align: center;
+		@include transition(0.5s);
+		&:hover {
+			text-decoration: none;
+			color: #fff;
+			background-image: -moz-linear-gradient(bottom, darken(#0589cd, 10%) 0%, darken(#35abe5, 10%) 100%);;
+			background-image: -o-linear-gradient(bottom, darken(#0589cd, 10%) 0%, darken(#35abe5, 10%) 100%);
+			background-image: -webkit-linear-gradient(bottom, darken(#0589cd, 10%) 0%, darken(#35abe5, 10%) 100%);
+			background-image: linear-gradient(bottom, darken(#0589cd, 10%) 0%, darken(#35abe5, 10%) 100%);
+		}
+	}
+
+	&:after {
+		content: "";
+		position: absolute;
+		width: 55%;
+		height: 0;
+		left: 0;
+		bottom: 0;
+		margin-left: -54px;
+		border: 45px solid transparent;
+		border-bottom-color: #fff;
+		border-left: 0;
+		z-index: 1;
+	} 
+}
