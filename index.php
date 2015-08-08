@@ -108,6 +108,35 @@
     	</div>
     </section>
 
+    <section class="optionBut">
+    	<div class="contain">
+    		<div class="optionBut__block">
+    			<div class="optionBut__block__img">
+    				<img src="<?php bloginfo('template_directory'); ?>/img/mic.png" alt="">
+    			</div>
+    			<p>Микрофон</p>
+    		</div>
+    		<div class="optionBut__block">
+    			<div class="optionBut__block__img">
+    				<img src="<?php bloginfo('template_directory'); ?>/img/vibro.png" alt="">
+    			</div>
+    			<p>Вибромотор</p>
+    		</div>
+    		<div class="optionBut__block">
+    			<div class="optionBut__block__img">
+    				<img src="<?php bloginfo('template_directory'); ?>/img/mp3.png" alt="">
+    			</div>
+    			<p>MP3-плеер</p>
+    		</div>
+    		<div class="optionBut__block">
+    			<div class="optionBut__block__img">
+    				<img src="<?php bloginfo('template_directory'); ?>/img/radio.png" alt="">
+    			</div>
+    			<p>Радио</p>
+    		</div>
+    	</div>
+    </section>
+
 <?php wp_footer(); ?>
 </body>
 </html>

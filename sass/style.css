@@ -441,4 +441,45 @@ ul {
     font-size: 60px;
     font-family: "LatoLight"; }
 
+.optionBut {
+  display: block;
+  position: relative;
+  background-image: url("../img/bg3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 75px 0; }
+  .optionBut:after {
+    content: "";
+    position: absolute;
+    width: 55%;
+    height: 0;
+    left: 0;
+    bottom: 0;
+    margin-left: -54px;
+    border: 45px solid transparent;
+    border-bottom-color: #fff;
+    border-left: 0;
+    z-index: 1; }
+  .optionBut__block {
+    display: block;
+    width: 25%;
+    float: left; }
+    .optionBut__block__img {
+      display: block;
+      width: 81px;
+      height: 81px;
+      margin: 0 auto;
+      line-height: 81px; }
+      .optionBut__block__img img {
+        display: inline-block;
+        line-height: normal;
+        vertical-align: middle; }
+  .optionBut p {
+    color: #fff;
+    font-family: "LatoBold";
+    font-size: 24px;
+    margin-top: 15px;
+    text-align: center; }
+
 /*# sourceMappingURL=style.css.map */
