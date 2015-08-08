@@ -270,12 +270,32 @@
     			</div>
     			<div class="how__but">
 					<a href="#nowhere">Заказать сейчас</a>
-				</div>    			
-    		
+				</div>     		
     	</div>
     </section>
 
-				
+	<footer class="footer">
+		<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+			<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+				<h1>Smart Watch</h1>
+				<p>умные часы</p>
+			</div>
+		</div>
+		<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="footer__phones">
+					<p>+38 (096) 111 11 11</p>
+					<p>+38 (096) 111 11 11</p>
+				</div>
+			</div>
+			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+				<h4> ДОСТАВКА ПО КИЕВУ В ДЕНЬ ЗАКАЗА</h4>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+				<a href="#nowhere" class="footer__but">Заказать звонок</a>
+			</div>
+		</div>	
+	</footer>		
 
 <?php wp_footer(); ?>
 </body>

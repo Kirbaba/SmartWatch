@@ -144,6 +144,67 @@ ul {
       text-decoration: none;
       background: white; }
 
+.footer {
+  display: block;
+  float: left;
+  position: relative;
+  padding: 75px 15px 25px;
+  background-color: #515151; }
+  .footer h1 {
+    font-family: "ImpactRegular";
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+    text-align: right; }
+  .footer p {
+    color: #fff;
+    font-family: "LatoLight";
+    text-align: right;
+    font-size: 20px; }
+  .footer__phones {
+    display: block;
+    float: right;
+    padding: 0 15px; }
+    .footer__phones p {
+      font-family: "LatoRegular";
+      font-size: 20px;
+      color: #fff; }
+  .footer h4 {
+    color: #fff;
+    font-family: "LatoBold";
+    font-size: 23px;
+    padding-left: 20px; }
+  .footer__but {
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    width: 180px;
+    height: 31px;
+    display: block;
+    color: #fff;
+    border: 1px solid #fff;
+    -webkit-border-radius: 5px/3px 3px 3px 3px;
+    -moz-border-radius: 5px/3px 3px 3px 3px;
+    -ms-border-radius: 5px/3px 3px 3px 3px;
+    border-radius: 5px/3px 3px 3px 3px;
+    -o-background-clip: padding-box;
+    background-clip: padding-box;
+    text-align: center;
+    line-height: 31px;
+    text-decoration: none;
+    margin: 5px 15px;
+    float: right;
+    font-weight: bold;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+    .footer__but:hover {
+      color: #000;
+      text-decoration: none;
+      background: white; }
+
 .slide {
   display: block;
   position: relative;
