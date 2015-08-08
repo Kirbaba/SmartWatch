@@ -244,6 +244,36 @@
     	</div>
     </section>
     	
+    <section class="how">
+    	<div class="contain">
+    		<h1>Как сделать заказ</h1>
+    			<div class="how_row">
+	    			<div class="how__block">
+	    				<div class="how__block__img"><img src="<?php bloginfo('template_directory'); ?>/img/how1.png" alt=""></div>
+	    				<h2>Заказ</h2>
+	    				<p>Позвоните по указанным телефонам
+						или закажите обратный звонок</p>
+	    			</div>
+	    			<div class="how__block">
+	    				<div class="how__block__img"><img src="<?php bloginfo('template_directory'); ?>/img/how2.png" alt=""></div>
+	    				<h2>Оплата</h2>
+	    				<p>Оплатите на карточку ПриватБанка
+						или наоженным платеж</p>
+	    			</div>
+	    			<div class="how__block">
+	    				<div class="how__block__img"><img src="<?php bloginfo('template_directory'); ?>/img/how3.png" alt=""></div>
+	    				<h2>Доставка</h2>
+	    				<p>Доставка по Киеву бесплатна
+						Возможна отправка Новой почтой
+						(по территории Украины)</p>
+	    			</div>
+    			</div>
+    			<div class="how__but">
+					<a href="#nowhere">Заказать сейчас</a>
+				</div>    			
+    		
+    	</div>
+    </section>
 
 				
 
