@@ -581,4 +581,68 @@ ul {
         background-image: -webkit-linear-gradient(bottom, #04689b 0%, #1a92cd 100%);
         background-image: linear-gradient(bottom, #04689b 0%, #1a92cd 100%); }
 
+.reviews {
+  display: block;
+  position: relative;
+  background-color: #eeeded;
+  padding: 75px 0 100px; }
+  .reviews:after {
+    content: "";
+    position: absolute;
+    width: 55%;
+    height: 0;
+    left: 0;
+    bottom: 0;
+    margin-left: -54px;
+    border: 45px solid transparent;
+    border-bottom-color: #fff;
+    border-left: 0;
+    z-index: 1; }
+  .reviews h1 {
+    color: #272727;
+    font-family: "LatoLight";
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    width: 65%;
+    margin: 25px auto; }
+    .reviews h1 b {
+      font-family: "LatoBold"; }
+  .reviews__block {
+    display: block;
+    position: relative;
+    width: 100%;
+    float: left;
+    padding: 0 100px;
+    margin: 25px 0; }
+    .reviews__block__img {
+      display: block;
+      float: left;
+      width: 25%; }
+      .reviews__block__img img {
+        display: block;
+        margin: 0 auto;
+        width: 196px;
+        height: 196px;
+        -webkit-border-radius: 98px;
+        -moz-border-radius: 98px;
+        -ms-border-radius: 98px;
+        border-radius: 98px;
+        -o-background-clip: padding-box;
+        background-clip: padding-box;
+        background-color: #373737; }
+    .reviews__block__text {
+      display: block;
+      float: left;
+      width: 75%;
+      padding: 0 25px; }
+      .reviews__block__text h3 {
+        color: #373737;
+        font-family: "LatoBold";
+        font-size: 18px; }
+      .reviews__block__text p {
+        color: #545353;
+        font-family: "LatoRegular";
+        font-size: 14px; }
+
 /*# sourceMappingURL=style.css.map */
