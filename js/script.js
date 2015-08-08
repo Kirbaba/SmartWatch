@@ -64,3 +64,18 @@ jQuery(document).ready(function($) {
     });
     });
 });
+
+jQuery(document).ready(function($) {
+    var txt = $('.advantages__block__text');
+    txt.each(function(){
+        var heightEl = $(this).height();
+        var topEl = (320 - heightEl)/2 ;
+        $(this).css({
+            top: topEl
+        });
+    });
+    /*txt.each(function(){
+    var heightEl = $(this).height();
+    
+    });*/
+});

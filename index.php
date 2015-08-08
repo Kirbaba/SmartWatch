@@ -137,6 +137,67 @@
     	</div>
     </section>
 
+    <section class="advantages">
+    	<div class="contain">
+    		<h1>5 преимуществ <b>Smart-часов GT-08</b>,<br>
+				которые Вы обязательно оцените</h1>	
+				<div class="advantages__block">
+					<div class="advantages__block__img">
+						<img src="<?php bloginfo('template_directory'); ?>/img/adv1.png" alt="">
+					</div>
+					<div class="advantages__block__text">
+						<h3>Звукозапись</h3>
+						<p>Запись в формате <b>HD WAV</b><br>Звук высокого качества</p>
+					</div>
+				</div>
+				<div class="advantages__block">
+					<div class="advantages__block__text">
+						<h3>Функция анти-потеря</h3>
+						<p>Когда Ваш телефон <b>далеко</b> от часов, они начинают <b>вибрировать</b></p>
+					</div>
+					<div class="advantages__block__img">
+						<img src="<?php bloginfo('template_directory'); ?>/img/adv2.png" alt="">
+					</div>
+				</div>
+				<div class="advantages__block">
+					<div class="advantages__block__img">
+						<img src="<?php bloginfo('template_directory'); ?>/img/adv3.png" alt="">
+					</div>
+					<div class="advantages__block__text">
+						<h3>Батерея 320 mAh</h3>
+						<p><b>Режим разговора:</b> 3 часа <br><b>Режим ожидания:</b> 180 часов</p>
+					</div>
+				</div>
+				<div class="advantages__block">
+					<div class="advantages__block__text">
+						<h3>Медиа</h3>
+						<p>Подключается к Вашему смартфону и
+							<b>синхронизируется</b> с play-листом,
+							или просто проигрывает музыку,
+							которая находится на карте памяти</p>
+					</div>
+					<div class="advantages__block__img">
+						<img src="<?php bloginfo('template_directory'); ?>/img/adv4.png" alt="">
+					</div>
+				</div>
+				<div class="advantages__block">
+					<div class="advantages__block__img">
+						<img src="<?php bloginfo('template_directory'); ?>/img/adv5.png" alt="">
+					</div>
+					<div class="advantages__block__text">
+						<h3>Интеграция</h3>
+						<p>Возможна интеграция со всеми устройствами iOS и Android</p>
+					</div>
+				</div>	
+			<div class="advantages__but">
+				<a href="#nowhere">Заказать сейчас</a>
+			</div>  
+    	</div>
+    </section>
+    	
+
+				
+
 <?php wp_footer(); ?>
 </body>
 </html>

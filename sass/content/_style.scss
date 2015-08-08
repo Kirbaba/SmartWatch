@@ -368,3 +368,111 @@
 		text-align: center;
 	}
 }
+
+.advantages {
+	display: block;
+	position: relative;
+	&:after {
+		content: "";
+		position: absolute;
+		width: 55%;
+		height: 0;
+		right: 0;
+		bottom: -90px;
+		margin-left: -54px;
+		border: 45px solid transparent;
+		border-top-color: #fff;
+		border-right: 0;
+		z-index: 1;
+	} 
+
+	h1 {
+		color: #272727;
+		font-family: $l;
+		font-size: 54px;
+		text-align: center;
+		margin: 50px 0;
+		b {
+			color: #2a97d5;
+			font-family: $b;
+		}		
+	}
+
+	&__block {
+		display: block;
+		position: relative;
+		float: left;
+		height: 320px;
+		width: 100%;
+		margin: 10px 0;
+		padding: 0 125px;
+		h3 {
+			color: #2a97d5;
+			font-family: $b;
+			font-size: 29px;
+		}
+
+		p {
+			color: #272727;
+			font-family: $l;
+			font-size: 23px;
+			display: block;
+			max-width: 400px;
+			b {
+				font-family: $b;
+			}
+		} 
+		&__img {
+			display: block;
+			float: left;
+			width: 50%;
+			img {
+				display: block;
+				margin: 0 auto;
+			}
+		}
+
+		&__text {
+			display: block;
+			position: relative;
+			float: left;
+			width: 50%;
+			padding-left: 75px;
+		}
+	}
+	&__but {
+		display: inline-block;
+		width: 100%;
+		position: relative;
+		margin: 50px 0;
+		a {
+			display: block;
+			width: 330px;
+			margin: 0 auto;
+			margin: 25px auto;
+			@include border-radius(5px);
+			@include background-clip(padding-box);
+			background-color: #272727;
+			@include box-shadow(1px, 2px, 4px, rgba(0,0,0,.94));		
+			background-image: -moz-linear-gradient(bottom, #0589cd 0%, #35abe5 100%);
+			background-image: -o-linear-gradient(bottom, #0589cd 0%, #35abe5 100%);
+			background-image: -webkit-linear-gradient(bottom, #0589cd 0%, #35abe5 100%);
+			background-image: linear-gradient(bottom, #0589cd 0%, #35abe5 100%);
+			color: #fff;
+			font-weight: bold;
+			font-size: 21px;
+			line-height: 49px;
+			text-align: center;
+			@include transition(0.5s);
+			&:hover {
+				text-decoration: none;
+				color: #fff;
+				background-image: -moz-linear-gradient(bottom, darken(#0589cd, 10%) 0%, darken(#35abe5, 10%) 100%);;
+				background-image: -o-linear-gradient(bottom, darken(#0589cd, 10%) 0%, darken(#35abe5, 10%) 100%);
+				background-image: -webkit-linear-gradient(bottom, darken(#0589cd, 10%) 0%, darken(#35abe5, 10%) 100%);
+				background-image: linear-gradient(bottom, darken(#0589cd, 10%) 0%, darken(#35abe5, 10%) 100%);
+			}
+		}
+		
+	}
+}
