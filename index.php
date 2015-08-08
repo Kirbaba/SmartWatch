@@ -99,6 +99,15 @@
 		</div>
     </section>
 
+    <section class="options">
+    	<h1>Технические характеристики</h1>
+    	<div class="contain">
+    		<div class="options__watch"></div>
+    		<div class="options__desc"></div>
+    		<a href="#nowhere" class="options__but">Заказать сейчас</a>  
+    	</div>
+    </section>
+
 <?php wp_footer(); ?>
 </body>
 </html>

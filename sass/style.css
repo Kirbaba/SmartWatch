@@ -294,7 +294,7 @@ ul {
       -o-background-clip: padding-box;
       background-clip: padding-box;
       background-color: #fff; }
-    .order__form__sub, .photo__but {
+    .order__form__sub, .photo__but, .options__but {
       display: block;
       margin: 20px 0;
       width: 100%;
@@ -324,7 +324,7 @@ ul {
       -ms-transition: all 0.5s linear;
       -o-transition: all 0.5s linear;
       transition: all 0.5s linear; }
-      .order__form__sub:hover, .photo__but:hover {
+      .order__form__sub:hover, .photo__but:hover, .options__but:hover {
         text-decoration: none;
         outline: none;
         color: #fff;
@@ -332,7 +332,7 @@ ul {
         background-image: -o-linear-gradient(bottom, #04689b 0%, #1a92cd 100%);
         background-image: -webkit-linear-gradient(bottom, #04689b 0%, #1a92cd 100%);
         background-image: linear-gradient(bottom, #04689b 0%, #1a92cd 100%); }
-      .order__form__sub:active, .photo__but:active, .order__form__sub:focus, .photo__but:focus {
+      .order__form__sub:active, .photo__but:active, .options__but:active, .order__form__sub:focus, .photo__but:focus, .options__but:focus {
         outline: none; }
     .order__form p {
       text-align: center;
@@ -343,10 +343,10 @@ ul {
 .video {
   display: block;
   height: 840px;
-  padding: 50px 0;
+  padding: 0;
   position: relative;
   background-repeat: no-repeat;
-  background-position: center 30%;
+  background-position: center 65%;
   background-image: url("../img/bg2.png"); }
   .video:after {
     content: "";
@@ -386,7 +386,7 @@ ul {
   border-top: 0; }
   .photo__box {
     margin: 0 39px; }
-  .photo__but {
+  .photo__but, .options__but {
     float: right;
     width: 330px;
     margin-right: 54px; }
@@ -398,5 +398,47 @@ ul {
     margin: 50px 0; }
     .photo h1 b {
       font-family: "LatoBold"; }
+
+.options {
+  display: block;
+  position: relative;
+  padding: 25px 0; }
+  .options:after {
+    content: "";
+    position: absolute;
+    width: 55%;
+    height: 0;
+    right: 0;
+    bottom: -90px;
+    margin-left: -54px;
+    border: 45px solid transparent;
+    border-top-color: #fff;
+    border-right: 0;
+    z-index: 1; }
+  .options__watch {
+    display: block;
+    float: left;
+    width: 25%;
+    height: 408px;
+    background-image: url("../img/clock2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 25px 0; }
+  .options__desc {
+    display: block;
+    float: left;
+    width: 75%;
+    height: 300px;
+    background-image: url("../img/opt.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 80% 0;
+    margin: 75px 0; }
+  .options h1 {
+    text-align: center;
+    color: #272727;
+    font-size: 60px;
+    font-family: "LatoLight"; }
 
 /*# sourceMappingURL=style.css.map */

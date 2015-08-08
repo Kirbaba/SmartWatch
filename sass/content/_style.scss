@@ -196,10 +196,10 @@
 .video {
 	display: block;
 	height: 840px;
-	padding: 50px 0;
+	padding: 0;
 	position: relative;
 	background-repeat: no-repeat;
-	background-position: center 30%;
+	background-position: center 65%;
 	background-image: url("../img/bg2.png");
 	&:after {
 		content: "";
@@ -264,5 +264,58 @@
 		b {
 			font-family: $b;
 		}
+	}
+}
+
+.options {
+	display: block;
+	position: relative;
+	padding: 25px 0;
+	&:after {
+		content: "";
+		position: absolute;
+		width: 55%;
+		height: 0;
+		right: 0;
+		bottom: -90px;
+		margin-left: -54px;
+		border: 45px solid transparent;
+		border-top-color: #fff;
+		border-right: 0;
+		z-index: 1;
+	} 
+	&__but {
+		@extend .photo__but;
+	}
+
+	&__watch {
+		display: block;
+		float: left;
+		width: 25%;
+		height: 408px;
+		background-image: url("../img/clock2.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		margin: 25px 0;
+	}
+
+	&__desc {
+		display: block;
+		float: left;
+		width: 75%;
+		height: 300px;
+		background-image: url("../img/opt.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: 80% 0;
+	    margin: 75px 0;
+	}
+
+	h1 {
+		text-align: center;
+		color: #272727;
+		font-size: 60px;
+		font-family: $l;
 	}
 }
