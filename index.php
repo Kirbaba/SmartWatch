@@ -31,7 +31,7 @@
 				<h4> ДОСТАВКА ПО КИЕВУ В ДЕНЬ ЗАКАЗА</h4>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-				<a href="#nowhere" class="header__but">Заказать звонок</a>
+				<a data-toggle="modal" href="#callme" class="header__but">Заказать звонок</a>
 			</div>
 		</div>	
 	</header>
@@ -40,7 +40,7 @@
 		<div class="contain">
 			<h1><b>Smart-часы</b> GT-08 с видео-камерой
 			со скидкой 50% всего <b>2100</b> грн.</h1>
-			<a href="#nowhere" class="slide__but">Оформить заказ по акции</a>
+			<a data-toggle="modal" href="#callme" class="slide__but">Оформить заказ по акции</a>
 		</div>
 	</section>
 
@@ -95,7 +95,7 @@
 		      	      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/pic5.png" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/pic5.png" alt="" /></a>
 		      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/pic6.png" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/pic6.png" alt="" /></a>
 	    </div>
-	    <a href="#nowhere" class="photo__but">Заказать сейчас</a>    
+	    <a data-toggle="modal" href="#callme" class="photo__but">Заказать сейчас</a>    
 		</div>
     </section>
 
@@ -104,7 +104,7 @@
     	<div class="contain">
     		<div class="options__watch"></div>
     		<div class="options__desc"></div>
-    		<a href="#nowhere" class="options__but">Заказать сейчас</a>  
+    		<a data-toggle="modal" href="#callme" class="options__but">Заказать сейчас</a>  
     	</div>
     </section>
 
@@ -190,7 +190,7 @@
 					</div>
 				</div>	
 			<div class="advantages__but">
-				<a href="#nowhere">Заказать сейчас</a>
+				<a data-toggle="modal" href="#callme">Заказать сейчас</a>
 			</div>  
     	</div>
     </section>
@@ -269,7 +269,7 @@
 	    			</div>
     			</div>
     			<div class="how__but">
-					<a href="#nowhere">Заказать сейчас</a>
+					<a data-toggle="modal" href="#callme">Заказать сейчас</a>
 				</div>     		
     	</div>
     </section>
@@ -292,10 +292,29 @@
 				<h4> ДОСТАВКА ПО КИЕВУ В ДЕНЬ ЗАКАЗА</h4>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-				<a href="#nowhere" class="footer__but">Заказать звонок</a>
+				<a data-toggle="modal" href="#callme" class="footer__but">Заказать звонок</a>
 			</div>
 		</div>	
 	</footer>		
+
+	<div class="modal fade" id="callme" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	    <div class="modal-dialog">
+	        <div class="modal-header">
+	            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><!--&times;--></button>
+	            <h3>Закажите smart-часы GT-08
+						прямо <b>сейчас</b>, чтобы <br>
+						<b>получить скидку 50 %</b></h3>
+						<form>
+							<input type="text" class="order__form__input">
+							<input type="text" class="order__form__input">
+							<input type="phone" class="order__form__input">
+							<input type="submit" class="order__form__sub" value="Заказать сейчас">
+						</form>
+						<p>100% гарантии<br>конфиденциальности данных</p>
+	            
+	        </div>
+	    </div>
+	</div>
 
 <?php wp_footer(); ?>
 </body>

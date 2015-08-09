@@ -1,6 +1,6 @@
 a.example-image-link {
 	display: inline-block;
-	vertical-align: middle;
+	position: relative;
 	width: 330px;
 	height: 330px;
 	border: 1px solid #272727;

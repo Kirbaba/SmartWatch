@@ -1,3 +1,4 @@
+@import "_popup";
 .slide {
 	display: block;
 	position: relative;
@@ -38,14 +39,24 @@
 		font-size: 21px;
 		line-height: 49px;
 		text-align: center;
-		@include transition(0.5s);
-		&:hover {
+		box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+		outline-color: rgba(255, 255, 255, .5);
+		outline-offset: 0px;
+		text-shadow: none;
+		// @include transition(0.5s);
+		transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+		&:hover, &:active, &:focus {
+			box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+			outline-color: rgba(255, 255, 255, 0);
+			outline-offset: 15px;
+			text-shadow: 1px 1px 2px #427388; 
 			text-decoration: none;
 			color: #fff;
 			background-image: -moz-linear-gradient(bottom, darken(#0589cd, 10%) 0%, darken(#35abe5, 10%) 100%);;
 			background-image: -o-linear-gradient(bottom, darken(#0589cd, 10%) 0%, darken(#35abe5, 10%) 100%);
 			background-image: -webkit-linear-gradient(bottom, darken(#0589cd, 10%) 0%, darken(#35abe5, 10%) 100%);
 			background-image: linear-gradient(bottom, darken(#0589cd, 10%) 0%, darken(#35abe5, 10%) 100%);
+
 		}
 	}
 
@@ -57,7 +68,7 @@
 		left: 0;
 		bottom: 0;
 		margin-left: -54px;
-		border: 45px solid transparent;
+		border: 30px solid transparent;
 		border-bottom-color: #fff;
 		border-left: 0;
 		z-index: 1;
@@ -170,7 +181,17 @@
 			line-height: 49px;
 			text-align: center;
 			@include transition(0.5s);
-			&:hover {
+			box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+			outline-color: rgba(255, 255, 255, .5);
+			outline-offset: 0px;
+			text-shadow: none;
+			// @include transition(0.5s);
+			transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+			&:hover, &:active, &:focus {
+				box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+				outline-color: rgba(255, 255, 255, 0);
+				outline-offset: 15px;
+				text-shadow: 1px 1px 2px #427388; 
 				text-decoration: none;
 				outline: none;
 				color: #fff;
@@ -181,6 +202,7 @@
 			}
 			&:active, &:focus {
 				outline: none;
+				text-decoration: none;
 			}
 		}
 
@@ -209,7 +231,7 @@
 		left: 0;
 		bottom: 0;
 		margin-left: -54px;
-		border: 45px solid transparent;
+		border: 30px solid transparent;
 		border-bottom-color: #fff;
 		border-left: 0;
 		z-index: 1;
@@ -277,9 +299,9 @@
 		width: 55%;
 		height: 0;
 		right: 0;
-		bottom: -90px;
+		bottom: -60px;
 		margin-left: -54px;
-		border: 45px solid transparent;
+		border: 30px solid transparent;
 		border-top-color: #fff;
 		border-right: 0;
 		z-index: 1;
@@ -336,7 +358,7 @@
 		left: 0;
 		bottom: 0;
 		margin-left: -54px;
-		border: 45px solid transparent;
+		border: 30px solid transparent;
 		border-bottom-color: #fff;
 		border-left: 0;
 		z-index: 1;
@@ -378,9 +400,9 @@
 		width: 55%;
 		height: 0;
 		right: 0;
-		bottom: -90px;
+		bottom: -60px;
 		margin-left: -54px;
-		border: 45px solid transparent;
+		border: 30px solid transparent;
 		border-top-color: #fff;
 		border-right: 0;
 		z-index: 1;
@@ -464,7 +486,17 @@
 			line-height: 49px;
 			text-align: center;
 			@include transition(0.5s);
-			&:hover {
+			box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+			outline-color: rgba(255, 255, 255, .5);
+			outline-offset: 0px;
+			text-shadow: none;
+			// @include transition(0.5s);
+			transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+			&:hover, &:active, &:focus {
+				box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+				outline-color: rgba(255, 255, 255, 0);
+				outline-offset: 15px;
+				text-shadow: 1px 1px 2px #427388; 
 				text-decoration: none;
 				color: #fff;
 				background-image: -moz-linear-gradient(bottom, darken(#0589cd, 10%) 0%, darken(#35abe5, 10%) 100%);;
@@ -490,7 +522,7 @@
 		left: 0;
 		bottom: 0;
 		margin-left: -54px;
-		border: 45px solid transparent;
+		border: 30px solid transparent;
 		border-bottom-color: #fff;
 		border-left: 0;
 		z-index: 1;
@@ -559,9 +591,9 @@
 		width: 55%;
 		height: 0;
 		right: 0;
-		bottom: -90px;
+		bottom: -60px;
 		margin-left: -54px;
-		border: 45px solid transparent;
+		border: 30px solid transparent;
 		border-top-color: #fff;
 		border-right: 0;
 		z-index: 1;

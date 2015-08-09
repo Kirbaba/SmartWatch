@@ -1,0 +1,79 @@
+.modal-dialog{
+    width: 400px;
+    display: block;
+    position: relative;
+    height: 473px;
+    padding: 15px 30px;
+    @include border-radius(10px);
+    @include background-clip(padding-box);
+    background-color: #272727;
+    h3 {
+      font-family: $l;
+      text-align: center;
+      color: #fff;
+      font-size: 23px;
+      b {
+        font-family: $b;
+      }
+    }
+
+    p {
+      text-align: center;
+      color: #fff;
+      font-size: 18px;
+      font-family: $l;
+    }
+}
+
+#callme{
+  background-color: rgba(0, 0, 0, 0.51);
+}
+
+.modal-header {
+  border-bottom: 0;
+  padding: 0;
+  .close {    
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/close.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: -30px -20px 0 0;
+    opacity: 1;
+    outline: none;
+  }
+}
+  
+
+// .formPopup {
+//   width: 367px;
+//   height: 56px;
+//   border: 2px solid rgba(0,0,0,.06);
+//   background-color: #f8f8f8;
+//   margin-bottom: 10px;
+//   padding: 0 20px;  
+
+//   &Text {
+//     width: 367px;
+//     height: 274px;
+//     border: 2px solid rgba(0,0,0,.06);
+//     background-color: #f8f8f8;
+//     margin-bottom: 10px;
+//     padding: 20px;
+//     resize: none;
+//   }
+
+//   &Sub {
+//     width: 371px;
+//     height: 60px;
+//     line-height: 60px;
+//     background-color: #ef4b4b;
+//     display: block;
+//     margin: 0 auto;
+//     text-align: center;
+//     color: #fff;
+//     font-size: 20px;
+//     font-weight: bold;
+//     border: none;
+//   }
+// }
