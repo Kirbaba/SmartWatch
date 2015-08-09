@@ -62,12 +62,9 @@
 						<h3>Закажите smart-часы GT-08
 						прямо <b>сейчас</b>, чтобы <br>
 						<b>получить скидку 50 %</b></h3>
-						<form>
-							<input type="text" class="order__form__input">
-							<input type="text" class="order__form__input">
-							<input type="phone" class="order__form__input">
-							<input type="submit" class="order__form__sub" value="Заказать сейчас">
-						</form>
+					
+						<?php echo do_shortcode("[contact-form-7 id='64' title='buy_form']"); ?>
+
 						<p>100% гарантии<br>конфиденциальности данных</p>
 					</div>
 				</div>
@@ -304,12 +301,8 @@
 	            <h3>Закажите smart-часы GT-08
 						прямо <b>сейчас</b>, чтобы <br>
 						<b>получить скидку 50 %</b></h3>
-						<form>
-							<input type="text" class="order__form__input">
-							<input type="text" class="order__form__input">
-							<input type="phone" class="order__form__input">
-							<input type="submit" class="order__form__sub" value="Заказать сейчас">
-						</form>
+					
+						<?php echo do_shortcode("[contact-form-7 id='64' title='buy_form']"); ?>
 						<p>100% гарантии<br>конфиденциальности данных</p>
 	            
 	        </div>
