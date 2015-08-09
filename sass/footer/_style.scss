@@ -54,7 +54,7 @@
 		float: right;
 		font-weight: bold;
 		@include transition(0.5s);
-		&:hover {
+		&:hover, &:active, &:focus {
 			color: #000;
 			text-decoration: none;
 			background: rgba(255, 255, 255, 1);
