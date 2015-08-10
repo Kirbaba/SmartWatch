@@ -79,16 +79,52 @@ ul {
 span.wpcf7-not-valid-tip {
   color: #fff; }
 
+.p0 {
+  padding: 0; }
+
+.navMenu {
+  display: block; }
+  .navMenu ul a {
+    display: inline-block;
+    height: 58px;
+    line-height: 58px;
+    padding: 0;
+    text-align: center; }
+    .navMenu ul a li {
+      color: #fff;
+      height: 58px;
+      line-height: 58px;
+      padding: 0 10px;
+      font-size: 21px;
+      font-family: "LatoRegular";
+      text-shadow: none; }
+      .navMenu ul a li span {
+        vertical-align: middle;
+        line-height: normal;
+        display: inline-block; }
+    .navMenu ul a:hover {
+      text-decoration: none; }
+      .navMenu ul a:hover li {
+        text-decoration: none;
+        color: #35abe5; }
+
 .header {
-  height: 150px;
+  height: 90px;
   background-color: #000;
   display: block;
-  position: relative;
-  padding: 15px; }
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  padding: 15px;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear; }
   .header:after {
     content: "";
     position: absolute;
-    width: 55%;
+    width: 51%;
     height: 0;
     right: 0;
     bottom: -60px;
@@ -100,22 +136,23 @@ span.wpcf7-not-valid-tip {
   .header h1 {
     font-family: "ImpactRegular";
     color: #fff;
-    font-size: 50px;
+    font-size: 38px;
     margin: 0;
     text-align: right; }
   .header p {
     color: #fff;
     font-family: "LatoLight";
     text-align: right;
-    font-size: 20px; }
+    font-size: 16px; }
   .header__phones {
     display: block;
-    float: right;
-    padding: 0 15px; }
+    padding-right: 5px; }
     .header__phones p {
       font-family: "LatoRegular";
       font-size: 20px;
-      color: #fff; }
+      color: #fff;
+      text-align: center;
+      margin-bottom: 0; }
   .header h4 {
     color: #fff;
     font-family: "LatoBold";
@@ -139,7 +176,7 @@ span.wpcf7-not-valid-tip {
     line-height: 31px;
     text-decoration: none;
     margin: 5px 15px;
-    float: right;
+    margin: 0 auto;
     font-weight: bold;
     -webkit-transition: all 0.5s linear;
     -moz-transition: all 0.5s linear;
@@ -255,8 +292,8 @@ span.wpcf7-not-valid-tip {
 .slide {
   display: block;
   position: relative;
-  padding: 205px 0 150px;
-  background-image: url("../img/bg1.png");
+  padding: 300px 0 150px;
+  background-image: url("../img/bg1.jpg");
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-attachment: fixed;
@@ -314,7 +351,7 @@ span.wpcf7-not-valid-tip {
   .slide:after {
     content: "";
     position: absolute;
-    width: 55%;
+    width: 56%;
     height: 0;
     left: 0;
     bottom: 0;
@@ -471,11 +508,11 @@ span.wpcf7-not-valid-tip {
   position: relative;
   background-repeat: no-repeat;
   background-position: center 65%;
-  background-image: url("../img/bg2.png"); }
+  background-image: url("../img/bg2.jpg"); }
   .video:after {
     content: "";
     position: absolute;
-    width: 55%;
+    width: 56%;
     height: 0;
     left: 0;
     bottom: 0;
@@ -531,7 +568,7 @@ span.wpcf7-not-valid-tip {
   .options:after {
     content: "";
     position: absolute;
-    width: 55%;
+    width: 51%;
     height: 0;
     right: 0;
     bottom: -60px;
@@ -569,7 +606,7 @@ span.wpcf7-not-valid-tip {
 .optionBut {
   display: block;
   position: relative;
-  background-image: url("../img/bg3.png");
+  background-image: url("../img/bg3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -577,7 +614,7 @@ span.wpcf7-not-valid-tip {
   .optionBut:after {
     content: "";
     position: absolute;
-    width: 55%;
+    width: 56%;
     height: 0;
     left: 0;
     bottom: 0;
@@ -613,7 +650,7 @@ span.wpcf7-not-valid-tip {
   .advantages:after {
     content: "";
     position: absolute;
-    width: 55%;
+    width: 51%;
     height: 0;
     right: 0;
     bottom: -60px;
@@ -723,7 +760,7 @@ span.wpcf7-not-valid-tip {
   .reviews:after {
     content: "";
     position: absolute;
-    width: 55%;
+    width: 56%;
     height: 0;
     left: 0;
     bottom: 0;
@@ -786,7 +823,7 @@ span.wpcf7-not-valid-tip {
   .how:after {
     content: "";
     position: absolute;
-    width: 55%;
+    width: 51%;
     height: 0;
     right: 0;
     bottom: -60px;

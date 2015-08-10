@@ -56,22 +56,25 @@ $(function() {
 
 jQuery(document).ready(function($) {
     var img = $('.example-image');
+    console.log(img);
+    setTimeout(function() { 
     img.each(function(){
-    var heightEl = $(this).height();
-    var topEl = (330 - heightEl)/2 ;
-    $(this).css({
-        top: topEl
+        var heightEl = $(this).height();
+        var topEl = (330 - heightEl)/2 ;
+        $(this).css({
+            top: topEl        
+        });
     });
-    });
+    }, 3000);   
 });
 
 jQuery(document).ready(function($) {
     var txt = $('.advantages__block__text');
     txt.each(function(){
-        var heightEl = $(this).height();
-        var topEl = (320 - heightEl)/2 ;
+        var h = $(this).height();
+        var t = (320 - h)/2 ;
         $(this).css({
-            top: topEl
+            top: t
         });
     });
     /*txt.each(function(){
