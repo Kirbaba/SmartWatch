@@ -23,12 +23,12 @@
 			<div class="header__nav">
 				<nav class="navMenu">
 					<ul>
-						<a href="#go_concerts"><li><span>Оформить заказ</span></li></a>
-						<a href="#go_events"><li><span>Видео</span></li></a>
-						<a href="#go_live"><li><span>Фото</span></li></a>
-						<a href="#go_photo"><li><span>Характеристики</span></li></a>
-						<a href="#go_rent"><li><span>Преимущества</span></li></a>
-						<a href="#go_contacts" ><li><span>Отзывы</span></li></a>
+						<a href="#go_order" class="smoothScroll"><li><span>Оформить заказ</span></li></a>
+						<a href="#go_video" class="smoothScroll"><li><span>Видео</span></li></a>
+						<a href="#go_photo" class="smoothScroll"><li><span>Фото</span></li></a>
+						<a href="#go_options" class="smoothScroll"><li><span>Характеристики</span></li></a>
+						<a href="#go_advantages" class="smoothScroll"><li><span>Преимущества</span></li></a>
+						<a href="#go_reviews" class="smoothScroll"><li><span>Отзывы</span></li></a>
 					</ul>
 				</nav>
 			</div>
@@ -53,7 +53,7 @@
 			<a data-toggle="modal" href="#callme" class="slide__but">Оформить заказ по акции</a>
 		</div>
 	</section>
-
+<a id="go_order" name="go_order"  class="internal_links"></a>
 	<section class="order">
 		<div class="contain">
 			<h1>Оформите заказ прямо сейчас
@@ -81,7 +81,7 @@
 			</div>
 		</div>		
 	</section>
-
+<a id="go_video" name="go_video"  class="internal_links"></a>
 	<section class="video">
 		<div class="contain">
 			<h1>Посмотрите видео-обзор <b>Smart-часов GT-08</b></h1>
@@ -90,7 +90,7 @@
 			</div>
 		</div>
 	</section>
-    
+    <a id="go_photo" name="go_photo"  class="internal_links"></a>
     <section class="photo">
     	<h1>Посмотрите фото-обзор <b>Smart-часов GT-08</b></h1>
     	<div class="contain">
@@ -105,7 +105,7 @@
 	    <a data-toggle="modal" href="#callme" class="photo__but">Заказать сейчас</a>    
 		</div>
     </section>
-
+	<a id="go_options" name="go_options"  class="internal_links"></a>
     <section class="options">
     	<h1>Технические характеристики</h1>
     	<div class="contain">
@@ -114,7 +114,7 @@
     		<a data-toggle="modal" href="#callme" class="options__but">Заказать сейчас</a>  
     	</div>
     </section>
-
+	
     <section class="optionBut">
     	<div class="contain">
     		<div class="optionBut__block">
@@ -143,7 +143,7 @@
     		</div>
     	</div>
     </section>
-
+<a id="go_advantages" name="go_advantages"  class="internal_links"></a>
     <section class="advantages">
     	<div class="contain">
     		<h1>5 преимуществ <b>Smart-часов GT-08</b>,<br>
@@ -201,7 +201,7 @@
 			</div>  
     	</div>
     </section>
-
+<a id="go_reviews" name="go_reviews"  class="internal_links"></a>
     <section class="reviews">
     	<div class="contain">
     		<h1>Почитайте <b>отзывы</b> тех, кто уже

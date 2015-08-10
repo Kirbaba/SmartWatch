@@ -30,33 +30,10 @@ window.onload = loadScript;
 */
 
 
-$(function() {
 
-    $(window).scroll(function() {
-        if($(this).scrollTop() != 0) {
-            $('#toTop').fadeIn();
-        } else {
-            $('#toTop').fadeOut();
-        }
-    });
-    $('#toTop').click(function() {
-        $('body,html').animate({scrollTop: 0}, 1000);
-    });
-
-    $('.smoothScroll').click(function(event) {
-        event.preventDefault();
-        var href=$(this).attr('href');
-        var target=$(href);
-        var top=target.offset().top;
-        $('html,body').animate({
-            scrollTop: top
-        }, 1000);
-    });
-});
 
 jQuery(document).ready(function($) {
     var img = $('.example-image');
-    console.log(img);
     setTimeout(function() { 
     img.each(function(){
         var heightEl = $(this).height();
@@ -81,4 +58,28 @@ jQuery(document).ready(function($) {
     var heightEl = $(this).height();
     
     });*/
+$(function() {
+
+    $(window).scroll(function() {
+        if($(this).scrollTop() != 0) {
+            $('#toTop').fadeIn();
+        } else {
+            $('#toTop').fadeOut();
+        }
+    });
+    $('#toTop').click(function() {
+        $('body,html').animate({scrollTop: 0}, 1000);
+    });
+
+    $('.smoothScroll').click(function(event) {
+        event.preventDefault();        
+        var href=$(this).attr('href');
+        var target=$(href);
+        var top=target.offset().top;
+        console.log(top);
+        $('html,body').animate({
+            scrollTop: top
+        }, 1000);
+    });
+});
 });
