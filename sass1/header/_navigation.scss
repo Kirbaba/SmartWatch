@@ -1,0 +1,34 @@
+.navMenu {
+  display: block;
+  ul {
+    a{
+      display: inline-block;
+      height: 58px;
+      line-height: 58px;
+      padding: 0;
+      text-align: center;
+      li {        
+        color: #fff;
+        height: 58px;
+        line-height: 58px;
+        padding: 0 10px;
+        font-size: 21px;
+        font-family: $r;
+        text-shadow: none;
+        span {
+          vertical-align: middle;
+          line-height: normal;
+          display: inline-block;          
+        }
+      }
+      &:hover {
+        text-decoration: none;
+        li{
+          text-decoration: none;
+          color: #35abe5;
+        }
+      }
+    }
+  }
+
+}

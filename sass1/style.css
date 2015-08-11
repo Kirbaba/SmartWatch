@@ -73,86 +73,43 @@ a {
 ul {
   list-style-type: none; }
 
-.wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors {
-  color: #fff; }
-
-span.wpcf7-not-valid-tip {
-  color: #fff; }
-
-.p0 {
-  padding: 0; }
-
-.navMenu {
-  display: block; }
-  .navMenu ul a {
-    display: inline-block;
-    height: 58px;
-    line-height: 58px;
-    padding: 0;
-    text-align: center; }
-    .navMenu ul a li {
-      color: #fff;
-      height: 58px;
-      line-height: 58px;
-      padding: 0 10px;
-      font-size: 21px;
-      font-family: "LatoRegular";
-      text-shadow: none; }
-      .navMenu ul a li span {
-        vertical-align: middle;
-        line-height: normal;
-        display: inline-block; }
-    .navMenu ul a:hover {
-      text-decoration: none; }
-      .navMenu ul a:hover li {
-        text-decoration: none;
-        color: #35abe5; }
-
 .header {
-  height: 90px;
+  height: 150px;
   background-color: #000;
   display: block;
-  position: fixed;
-  z-index: 999;
-  width: 100%;
-  padding: 15px;
-  -webkit-transition: all 0.5s linear;
-  -moz-transition: all 0.5s linear;
-  -ms-transition: all 0.5s linear;
-  -o-transition: all 0.5s linear;
-  transition: all 0.5s linear; }
+  position: relative;
+  padding: 15px; }
   .header:after {
     content: "";
     position: absolute;
-    width: 51%;
+    width: 55%;
     height: 0;
     right: 0;
-    bottom: -60px;
+    bottom: -90px;
     margin-left: -54px;
-    border: 30px solid transparent;
+    border: 45px solid transparent;
     border-top-color: #000;
     border-right: 0;
     z-index: 1; }
   .header h1 {
     font-family: "ImpactRegular";
     color: #fff;
-    font-size: 38px;
+    font-size: 50px;
     margin: 0;
     text-align: right; }
   .header p {
     color: #fff;
     font-family: "LatoLight";
     text-align: right;
-    font-size: 16px; }
+    font-size: 20px; }
   .header__phones {
     display: block;
-    padding-right: 5px; }
+    float: right;
+    padding: 0 15px; }
     .header__phones p {
       font-family: "LatoRegular";
       font-size: 20px;
-      color: #fff;
-      text-align: center;
-      margin-bottom: 0; }
+      color: #fff; }
   .header h4 {
     color: #fff;
     font-family: "LatoBold";
@@ -176,14 +133,14 @@ span.wpcf7-not-valid-tip {
     line-height: 31px;
     text-decoration: none;
     margin: 5px 15px;
-    margin: 0 auto;
+    float: right;
     font-weight: bold;
     -webkit-transition: all 0.5s linear;
     -moz-transition: all 0.5s linear;
     -ms-transition: all 0.5s linear;
     -o-transition: all 0.5s linear;
     transition: all 0.5s linear; }
-    .header__but:hover, .header__but:active, .header__but:focus {
+    .header__but:hover {
       text-decoration: none;
       background: white; }
 
@@ -243,57 +200,16 @@ span.wpcf7-not-valid-tip {
     -ms-transition: all 0.5s linear;
     -o-transition: all 0.5s linear;
     transition: all 0.5s linear; }
-    .footer__but:hover, .footer__but:active, .footer__but:focus {
+    .footer__but:hover {
       color: #000;
       text-decoration: none;
       background: white; }
 
-.modal-dialog {
-  width: 400px;
-  display: block;
-  position: relative;
-  padding: 15px 30px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  border-radius: 10px;
-  -o-background-clip: padding-box;
-  background-clip: padding-box;
-  background-color: #272727; }
-  .modal-dialog h3 {
-    font-family: "LatoLight";
-    text-align: center;
-    color: #fff;
-    font-size: 23px; }
-    .modal-dialog h3 b {
-      font-family: "LatoBold"; }
-  .modal-dialog p {
-    text-align: center;
-    color: #fff;
-    font-size: 18px;
-    font-family: "LatoLight"; }
-
-#callme {
-  background-color: rgba(0, 0, 0, 0.51); }
-
-.modal-header {
-  border-bottom: 0;
-  padding: 0; }
-  .modal-header .close {
-    width: 30px;
-    height: 30px;
-    background-image: url("../img/close.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: -30px -20px 0 0;
-    opacity: 1;
-    outline: none; }
-
 .slide {
   display: block;
   position: relative;
-  padding: 300px 0 150px;
-  background-image: url("../img/bg1.jpg");
+  padding: 205px 0 150px;
+  background-image: url("../img/bg1.png");
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-attachment: fixed;
@@ -332,16 +248,12 @@ span.wpcf7-not-valid-tip {
     font-size: 21px;
     line-height: 49px;
     text-align: center;
-    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
-    outline-color: rgba(255, 255, 255, 0.5);
-    outline-offset: 0px;
-    text-shadow: none;
-    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1); }
-    .slide__but:hover, .slide__but:active, .slide__but:focus {
-      box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
-      outline-color: rgba(255, 255, 255, 0);
-      outline-offset: 15px;
-      text-shadow: 1px 1px 2px #427388;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+    .slide__but:hover {
       text-decoration: none;
       color: #fff;
       background-image: -moz-linear-gradient(bottom, #04689b 0%, #1a92cd 100%);
@@ -351,12 +263,12 @@ span.wpcf7-not-valid-tip {
   .slide:after {
     content: "";
     position: absolute;
-    width: 56%;
+    width: 55%;
     height: 0;
     left: 0;
     bottom: 0;
     margin-left: -54px;
-    border: 30px solid transparent;
+    border: 45px solid transparent;
     border-bottom-color: #fff;
     border-left: 0;
     z-index: 1; }
@@ -413,6 +325,7 @@ span.wpcf7-not-valid-tip {
     width: 100%;
     display: block;
     position: relative;
+    height: 473px;
     padding: 15px 30px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -431,8 +344,7 @@ span.wpcf7-not-valid-tip {
     .order__form__input {
       display: block;
       width: 100%;
-      margin: 0;
-      padding-left: 15px;
+      margin: 20px 0;
       height: 48px;
       line-height: 48px;
       border: 1px solid #2da5e1;
@@ -443,11 +355,9 @@ span.wpcf7-not-valid-tip {
       -o-background-clip: padding-box;
       background-clip: padding-box;
       background-color: #fff; }
-    .order__form:hover, .order__form:active, .order__form:focus {
-      outline: none; }
     .order__form__sub, .photo__but, .options__but {
       display: block;
-      margin: 20;
+      margin: 20px 0;
       width: 100%;
       height: 48px;
       -webkit-border-radius: 5px;
@@ -474,17 +384,8 @@ span.wpcf7-not-valid-tip {
       -moz-transition: all 0.5s linear;
       -ms-transition: all 0.5s linear;
       -o-transition: all 0.5s linear;
-      transition: all 0.5s linear;
-      box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
-      outline-color: rgba(255, 255, 255, 0.5);
-      outline-offset: 0px;
-      text-shadow: none;
-      transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1); }
-      .order__form__sub:hover, .photo__but:hover, .options__but:hover, .order__form__sub:active, .photo__but:active, .options__but:active, .order__form__sub:focus, .photo__but:focus, .options__but:focus {
-        box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
-        outline-color: rgba(255, 255, 255, 0);
-        outline-offset: 15px;
-        text-shadow: 1px 1px 2px #427388;
+      transition: all 0.5s linear; }
+      .order__form__sub:hover, .photo__but:hover, .options__but:hover {
         text-decoration: none;
         outline: none;
         color: #fff;
@@ -493,8 +394,7 @@ span.wpcf7-not-valid-tip {
         background-image: -webkit-linear-gradient(bottom, #04689b 0%, #1a92cd 100%);
         background-image: linear-gradient(bottom, #04689b 0%, #1a92cd 100%); }
       .order__form__sub:active, .photo__but:active, .options__but:active, .order__form__sub:focus, .photo__but:focus, .options__but:focus {
-        outline: none;
-        text-decoration: none; }
+        outline: none; }
     .order__form p {
       text-align: center;
       color: #fff;
@@ -508,16 +408,16 @@ span.wpcf7-not-valid-tip {
   position: relative;
   background-repeat: no-repeat;
   background-position: center 65%;
-  background-image: url("../img/bg2.jpg"); }
+  background-image: url("../img/bg2.png"); }
   .video:after {
     content: "";
     position: absolute;
-    width: 56%;
+    width: 55%;
     height: 0;
     left: 0;
     bottom: 0;
     margin-left: -54px;
-    border: 30px solid transparent;
+    border: 45px solid transparent;
     border-bottom-color: #fff;
     border-left: 0;
     z-index: 1; }
@@ -544,8 +444,7 @@ span.wpcf7-not-valid-tip {
   position: relative;
   border-bottom: 50px solid #fff;
   border-image: url("../img/bordBot.png") 70;
-  border-top: 0;
-  height: 925px; }
+  border-top: 0; }
   .photo__box {
     margin: 0 39px; }
   .photo__but, .options__but {
@@ -568,12 +467,12 @@ span.wpcf7-not-valid-tip {
   .options:after {
     content: "";
     position: absolute;
-    width: 51%;
+    width: 55%;
     height: 0;
     right: 0;
-    bottom: -60px;
+    bottom: -90px;
     margin-left: -54px;
-    border: 30px solid transparent;
+    border: 45px solid transparent;
     border-top-color: #fff;
     border-right: 0;
     z-index: 1; }
@@ -606,7 +505,7 @@ span.wpcf7-not-valid-tip {
 .optionBut {
   display: block;
   position: relative;
-  background-image: url("../img/bg3.jpg");
+  background-image: url("../img/bg3.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -614,12 +513,12 @@ span.wpcf7-not-valid-tip {
   .optionBut:after {
     content: "";
     position: absolute;
-    width: 56%;
+    width: 55%;
     height: 0;
     left: 0;
     bottom: 0;
     margin-left: -54px;
-    border: 30px solid transparent;
+    border: 45px solid transparent;
     border-bottom-color: #fff;
     border-left: 0;
     z-index: 1; }
@@ -650,12 +549,12 @@ span.wpcf7-not-valid-tip {
   .advantages:after {
     content: "";
     position: absolute;
-    width: 51%;
+    width: 55%;
     height: 0;
     right: 0;
-    bottom: -60px;
+    bottom: -90px;
     margin-left: -54px;
-    border: 30px solid transparent;
+    border: 45px solid transparent;
     border-top-color: #fff;
     border-right: 0;
     z-index: 1; }
@@ -734,17 +633,8 @@ span.wpcf7-not-valid-tip {
       -moz-transition: all 0.5s linear;
       -ms-transition: all 0.5s linear;
       -o-transition: all 0.5s linear;
-      transition: all 0.5s linear;
-      box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
-      outline-color: rgba(255, 255, 255, 0.5);
-      outline-offset: 0px;
-      text-shadow: none;
-      transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1); }
-      .advantages__but a:hover, .how__but a:hover, .advantages__but a:active, .how__but a:active, .advantages__but a:focus, .how__but a:focus {
-        box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
-        outline-color: rgba(255, 255, 255, 0);
-        outline-offset: 15px;
-        text-shadow: 1px 1px 2px #427388;
+      transition: all 0.5s linear; }
+      .advantages__but a:hover, .how__but a:hover {
         text-decoration: none;
         color: #fff;
         background-image: -moz-linear-gradient(bottom, #04689b 0%, #1a92cd 100%);
@@ -760,12 +650,12 @@ span.wpcf7-not-valid-tip {
   .reviews:after {
     content: "";
     position: absolute;
-    width: 56%;
+    width: 55%;
     height: 0;
     left: 0;
     bottom: 0;
     margin-left: -54px;
-    border: 30px solid transparent;
+    border: 45px solid transparent;
     border-bottom-color: #fff;
     border-left: 0;
     z-index: 1; }
@@ -823,12 +713,12 @@ span.wpcf7-not-valid-tip {
   .how:after {
     content: "";
     position: absolute;
-    width: 51%;
+    width: 55%;
     height: 0;
     right: 0;
-    bottom: -60px;
+    bottom: -90px;
     margin-left: -54px;
-    border: 30px solid transparent;
+    border: 45px solid transparent;
     border-top-color: #fff;
     border-right: 0;
     z-index: 1; }
