@@ -149,7 +149,7 @@ span.wpcf7-not-valid-tip {
     padding-right: 5px; }
     .header__phones p {
       font-family: "LatoRegular";
-      font-size: 20px;
+      font-size: 16px;
       color: #fff;
       text-align: center;
       margin-bottom: 0; }
@@ -544,8 +544,7 @@ span.wpcf7-not-valid-tip {
   position: relative;
   border-bottom: 50px solid #fff;
   border-image: url("../img/bordBot.png") 70;
-  border-top: 0;
-  height: 925px; }
+  border-top: 0; }
   .photo__box {
     margin: 0 39px; }
   .photo__but, .options__but {
@@ -674,7 +673,7 @@ span.wpcf7-not-valid-tip {
     float: left;
     height: 320px;
     width: 100%;
-    margin: 10px 0;
+    margin: 25px 0;
     padding: 0 125px; }
     .advantages__block h3 {
       color: #2a97d5;

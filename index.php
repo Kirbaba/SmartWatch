@@ -36,8 +36,9 @@
 		<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
 							
 				
-					<div class="header__phones">
-					<p>+38 (096) 111 11 11</p>
+					<div class="header__phones">					
+					<p>+38(096)09888993</p>
+					<p>+38(063)7440889</p>
 					</div>
 					<a data-toggle="modal" href="#callme" class="header__but">Заказать звонок</a>
 			
@@ -49,7 +50,7 @@
 	<section class="slide">
 		<div class="contain">
 			<h1><b>Smart-часы</b> GT-08 с видео-камерой
-			со скидкой 50% всего <b>2100</b> грн.</h1>
+			со скидкой 27% всего <b>1990</b> грн.</h1>
 			<a data-toggle="modal" href="#callme" class="slide__but">Оформить заказ по акции</a>
 		</div>
 	</section>
@@ -57,7 +58,7 @@
 	<section class="order">
 		<div class="contain">
 			<h1>Оформите заказ прямо сейчас
-			и получите <b>скидку 50 %</b></h1>
+			и получите <b>скидку 27 %</b></h1>
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
 					<div class="order__clock">
@@ -71,7 +72,7 @@
 					<div class="order__form">
 						<h3>Закажите smart-часы GT-08
 						прямо <b>сейчас</b>, чтобы <br>
-						<b>получить скидку 50 %</b></h3>
+						<b>получить скидку 27 %</b></h3>
 					
 						<?php echo do_shortcode("[contact-form-7 id='64' title='buy_form']"); ?>
 
@@ -86,7 +87,7 @@
 		<div class="contain">
 			<h1>Посмотрите видео-обзор <b>Smart-часов GT-08</b></h1>
 			<div class="video__box">
-				<iframe width="585" height="360" src="https://www.youtube.com/embed/CkhLoaAQYxY" frameborder="0" allowfullscreen></iframe>
+				<iframe width="585" height="360" src="https://www.youtube.com/embed/8fA4TwaMd20" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
 	</section>
@@ -95,12 +96,18 @@
     	<h1>Посмотрите фото-обзор <b>Smart-часов GT-08</b></h1>
     	<div class="contain">
     	 <div class="photo__box">
-		      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/pic1.png" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/pic1.png" alt=""/></a>
-		      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/pic2.png" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/pic2.png" alt="" /></a>
-		      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/pic3.png" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/pic3.png" alt="" /></a>
-		      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/pic4.png" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/pic4.png" alt="" /></a>
-		      	      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/pic5.png" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/pic5.png" alt="" /></a>
-		      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/pic6.png" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/pic6.png" alt="" /></a>
+		      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/slides/1.jpg" data-lightbox="example-set" ><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/slides/1.jpg" alt=""/></a>
+		      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/slides/2.jpg" data-lightbox="example-set" ><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/slides/2.jpg" alt="" /></a>
+		      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/slides/3.jpg" data-lightbox="example-set"><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/slides/3.jpg" alt="" /></a>
+		      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/slides/4.jpg" data-lightbox="example-set" ><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/slides/4.jpg" alt="" /></a>
+		      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/slides/5.jpg" data-lightbox="example-set" ><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/slides/5.jpg" alt="" /></a>
+		      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/slides/6.jpg" data-lightbox="example-set"><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/slides/6.jpg" alt="" /></a>
+		      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/slides/7.jpg" data-lightbox="example-set" ><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/slides/7.jpg" alt=""/></a>
+		      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/slides/8.jpg" data-lightbox="example-set" ><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/slides/8.jpg" alt="" /></a>
+		      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/slides/9.jpg" data-lightbox="example-set"><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/slides/9.jpg" alt="" /></a>
+		      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/slides/10.jpg" data-lightbox="example-set" ><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/slides/10.jpg" alt="" /></a>
+		      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/slides/11.jpg" data-lightbox="example-set" ><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/slides/11.jpg" alt="" /></a>
+		      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/slides/12.jpg" data-lightbox="example-set"><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/slides/12.jpg" alt="" /></a>
 	    </div>
 	    <a data-toggle="modal" href="#callme" class="photo__but">Заказать сейчас</a>    
 		</div>
@@ -160,7 +167,11 @@
 				<div class="advantages__block">
 					<div class="advantages__block__text">
 						<h3>Функция анти-потеря</h3>
-						<p>Когда Ваш телефон <b>далеко</b> от часов, они начинают <b>вибрировать</b></p>
+						<p>Вы можете совершать и принимать звонки, 
+							а также использовать автодозвон и уведомления о сообщении.
+							Вы сможете использовать специальное программное обеспечение для 
+							отслеживания ваших ежедневных движений: шагомер, монитор сна и напоминания. 
+						</p>
 					</div>
 					<div class="advantages__block__img">
 						<img src="<?php bloginfo('template_directory'); ?>/img/adv2.png" alt="">
@@ -171,8 +182,8 @@
 						<img src="<?php bloginfo('template_directory'); ?>/img/adv3.png" alt="">
 					</div>
 					<div class="advantages__block__text">
-						<h3>Батерея 320 mAh</h3>
 						<p><b>Режим разговора:</b> 3 часа <br><b>Режим ожидания:</b> 180 часов</p>
+						<p>180 часов автономной резервной батареи позволит долгое время использовать устройство без дополнительной подзарядки</p>
 					</div>
 				</div>
 				<div class="advantages__block">
@@ -193,7 +204,10 @@
 					</div>
 					<div class="advantages__block__text">
 						<h3>Интеграция</h3>
-						<p>Возможна интеграция со всеми устройствами iOS и Android</p>
+						<p>Возможна интеграция со всеми устройствами IOS и android. 
+							Вы можете совершать и принимать звонки, 
+							а также использовать автодозвон и уведомления о сообщении. 
+							</p>
 					</div>
 				</div>	
 			<div class="advantages__but">
@@ -212,39 +226,46 @@
     			</div>
     			<div class="reviews__block__text">
     				<h3>Иван Петреченков, 25 лет </h3>
-    				<p>Очень понравился дизайн часов. Очень похожи на оригинальные Apple Watch. 
-    					У меня периодически спрашивают где я купил их до официального старта продаж. 
-    					На руке сидят удобно. Сенсор хороший, отзывчивый.
-    					 Часы связь с телефоном не теряют, соединение четкое. 
-    					 Очень удобно управлять плеером с часов и смотреть входящие вызовы и смс.</p>
+    				<p>Часы реально впечатляют, их даже часами тяжело назвать) 
+    					ведь это и телефон и фотоаппарат, и мп3 плеер, 
+    					калькулятор в общем все самое необходимое и самое часто используемое у вас на руке, 
+    					я и не думал что это так удобно, однозначно своих денег стоит, 
+    					рекомендую всем кто ценит комфорт и практичность. 
+    					Смело заказывайте вы будете приятно удивлены. 
+    					Отдельно хотелось бы упомянуть процедуру заказа, на заявку ответили быстро, 
+    					товар отправили в тот же день и на следующий день на новой почте получил и 
+    					оплатил посылку наложенным платежом, радует бесплатная доставка. 
+    					В общем молодцы, спасибо!)</p>
     			</div>
     		</div>
     		<div class="reviews__block">
     			<div class="reviews__block__img"><img src="<?php bloginfo('template_directory'); ?>/img/rev2.png" alt=""></div>
     			<div class="reviews__block__text">
     				<h3>Юрий Петров, 20 лет </h3>
-    				<p>Очень люблю продукцию фирмы Apple. 
-    					Часами загорелся сразу после презентации, но увидев ценник расстроился- дороговато. 
-    					Решил взять себе аналог, так как они не сильно отличаются.
-    					Как в любой техники есть плюсы и минусы. Начну отзыв с плюсов. 
-    					Отображаются входящие звонки с возможностью принять или отклонить. 
-    					Музыкальный плеер -слушаю музыку в свободное время. 
-    					Опять же аккумулятор держит до трёх дней и это не плохо.</p>
+    				<p>Мне эти часы сэкономили 3500 грн.) сейчас расскажу подробнее : 
+    					в общем пошли с друзьями футбол смотреть… в бар , разговорились , 
+    					слово за слово о телефоне забыл напрочь , собрались уходить, 
+    					уже отошли от столика и вдруг часы начали бить тревогу и вибрировать , 
+    					с непривычки думал все - трындец им пришел , а нет , 
+    					они беспокоились о моем телефоне)) не будь у меня этих 
+    					супер часов на руке , потерял бы телефон , на столе в спорт баре 
+    					он бы вряд ли долго пролежал без присмотра) так что у меня часы 
+    					даже окупились).
+</p>
     			</div>
     		</div>
     		<div class="reviews__block">
     			<div class="reviews__block__img"><img src="<?php bloginfo('template_directory'); ?>/img/rev3.png" alt=""></div>
     			<div class="reviews__block__text">
     				<h3>Диана Петракова, 23 года </h3>
-    				<p>Всегда относилась к умным часам с скептикой, 
-    					думала что это очередная выкачка денег от производителя. 
-    					А оказалось, что данный девайс весьма полезен. 
-						Очень удобна вибрация при потере связи с телефоном. 
-						Помогает не забывать свой мобильный где попало. 
-						Крутой экран, замечательно работающий на солнышке. 
-						Сенсор на морозе не проверял, так как пока тепло, 
-						но думаю должен вести себя нормально.
-						Плюс куча всяческих приятных мелочей, типа будильника и управления.</p>
+    				<p>По отношению цена \ качество , эти часики на высоте . 
+    					Я доволен , сразу хотел купить Apple но взглянув на цену , 
+    					ужаснулся от 14 000 грн. и выше  для меня это слишком дорого 
+    					, потом увидел у друга DZ 09 на руке посмотрел ,  все гуд , 
+    					на руке сидят удобно , приятный на ощупь силиконовый ремешок , 
+    					сенсор хороший , отзывчивый. Больше всего удивился цене 2700 грн. , 
+    					заказал в тот же день ) еще и на скидки попал ) 
+    					в общем часы с доставкой обошлись мне 1990 грн.</p>
     			</div>
     		</div>
     		
@@ -258,22 +279,20 @@
 	    			<div class="how__block">
 	    				<div class="how__block__img"><img src="<?php bloginfo('template_directory'); ?>/img/how1.png" alt=""></div>
 	    				<h2>Заказ</h2>
-	    				<p>Позвоните по указанным телефонам
-						или закажите обратный звонок</p>
-	    			</div>
-	    			<div class="how__block">
-	    				<div class="how__block__img"><img src="<?php bloginfo('template_directory'); ?>/img/how2.png" alt=""></div>
-	    				<h2>Оплата</h2>
-	    				<p>Оплатите на карточку ПриватБанка
-						или наоженным платеж</p>
+	    				<p>Позвоните по указанным телефонам или заполните форму для обратного звонка и менеджер перезвонит вам что б оформить заказ.
+</p>
 	    			</div>
 	    			<div class="how__block">
 	    				<div class="how__block__img"><img src="<?php bloginfo('template_directory'); ?>/img/how3.png" alt=""></div>
 	    				<h2>Доставка</h2>
-	    				<p>Доставка по Киеву бесплатна
-						Возможна отправка Новой почтой
-						(по территории Украины)</p>
+	    				<p>Доставка новой почтой по территории украины( бесплатно), доставка по киеву -курьером (бесплатно) </p>
 	    			</div>
+	    			<div class="how__block">
+	    				<div class="how__block__img"><img src="<?php bloginfo('template_directory'); ?>/img/how2.png" alt=""></div>
+	    				<h2>Оплата</h2>
+	    				<p>Оплата наложенным платежом при получении (Новая почта)</p>
+	    			</div>
+	    			
     			</div>
     			<div class="how__but">
 					<a data-toggle="modal" href="#callme">Заказать сейчас</a>
@@ -291,8 +310,8 @@
 		<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="footer__phones">
-					<p>+38 (096) 111 11 11</p>
-					<p>+38 (096) 111 11 11</p>
+					<p>+38(096)09888993</p>
+					<p>+38(063)7440889</p>
 				</div>
 			</div>
 			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
@@ -310,7 +329,7 @@
 	            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><!--&times;--></button>
 	            <h3>Закажите smart-часы GT-08
 						прямо <b>сейчас</b>, чтобы <br>
-						<b>получить скидку 50 %</b></h3>
+						<b>получить скидку 27 %</b></h3>
 					
 						<?php echo do_shortcode("[contact-form-7 id='64' title='buy_form']"); ?>
 						<p>100% гарантии<br>конфиденциальности данных</p>
