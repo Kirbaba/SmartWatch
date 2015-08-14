@@ -82,6 +82,10 @@ span.wpcf7-not-valid-tip {
 .p0 {
   padding: 0; }
 
+.internal_links {
+  position: relative;
+  top: -90px; }
+
 .navMenu {
   display: block; }
   .navMenu ul a {
@@ -192,7 +196,8 @@ span.wpcf7-not-valid-tip {
   float: left;
   position: relative;
   padding: 75px 15px 25px;
-  background-color: #515151; }
+  background-color: #515151;
+  width: 100%; }
   .footer h1 {
     font-family: "ImpactRegular";
     color: #fff;
@@ -215,7 +220,7 @@ span.wpcf7-not-valid-tip {
   .footer h4 {
     color: #fff;
     font-family: "LatoBold";
-    font-size: 23px;
+    font-size: 22px;
     padding-left: 20px; }
   .footer__but {
     background: rgba(255, 255, 255, 0);

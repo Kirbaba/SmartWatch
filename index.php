@@ -23,38 +23,33 @@
 			<div class="header__nav">
 				<nav class="navMenu">
 					<ul>
-						<a href="#go_concerts"><li><span>Оформить заказ</span></li></a>
-						<a href="#go_events"><li><span>Видео</span></li></a>
-						<a href="#go_live"><li><span>Фото</span></li></a>
-						<a href="#go_photo"><li><span>Характеристики</span></li></a>
-						<a href="#go_rent"><li><span>Преимущества</span></li></a>
-						<a href="#go_contacts" ><li><span>Отзывы</span></li></a>
+						<a href="#go_order" class="smoothScroll"><li><span>Оформить заказ</span></li></a>
+						<a href="#go_video" class="smoothScroll"><li><span>Видео</span></li></a>
+						<a href="#go_photo" class="smoothScroll"><li><span>Фото</span></li></a>
+						<a href="#go_options" class="smoothScroll"><li><span>Характеристики</span></li></a>
+						<a href="#go_advantages" class="smoothScroll"><li><span>Преимущества</span></li></a>
+						<a href="#go_reviews" class="smoothScroll"><li><span>Отзывы</span></li></a>
 					</ul>
 				</nav>
 			</div>
 		</div>
 		<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-							
-				
-					<div class="header__phones">					
-					<p>+38(096)09888993</p>
-					<p>+38(063)7440889</p>
-					</div>
-					<a data-toggle="modal" href="#callme" class="header__but">Заказать звонок</a>
-			
-			
-			
+			<div class="header__phones">					
+			<p>+38(096)0988993</p>
+			<p>+38(063)7440889</p>
+			</div>
+			<a data-toggle="modal" href="#callme" class="header__but">Заказать звонок</a>
 		</div>	
 	</header>
 
 	<section class="slide">
 		<div class="contain">
-			<h1><b>Smart-часы</b> GT-08 с видео-камерой
+			<h1><b>Smart-часы</b> DZ-09 с видео-камерой
 			со скидкой 27% всего <b>1990</b> грн.</h1>
 			<a data-toggle="modal" href="#callme" class="slide__but">Оформить заказ по акции</a>
 		</div>
 	</section>
-
+<a id="go_order" name="go_order"  class="internal_links"></a>
 	<section class="order">
 		<div class="contain">
 			<h1>Оформите заказ прямо сейчас
@@ -70,7 +65,7 @@
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
 					<div class="order__form">
-						<h3>Закажите smart-часы GT-08
+						<h3>Закажите smart-часы DZ-09
 						прямо <b>сейчас</b>, чтобы <br>
 						<b>получить скидку 27 %</b></h3>
 					
@@ -82,18 +77,18 @@
 			</div>
 		</div>		
 	</section>
-
+<a id="go_video" name="go_video"  class="internal_links"></a>
 	<section class="video">
 		<div class="contain">
-			<h1>Посмотрите видео-обзор <b>Smart-часов GT-08</b></h1>
+			<h1>Посмотрите видео-обзор <b>Smart-часов DZ-09</b></h1>
 			<div class="video__box">
 				<iframe width="585" height="360" src="https://www.youtube.com/embed/8fA4TwaMd20" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
 	</section>
-    
+ <a id="go_photo" name="go_photo"  class="internal_links"></a>
     <section class="photo">
-    	<h1>Посмотрите фото-обзор <b>Smart-часов GT-08</b></h1>
+    	<h1>Посмотрите фото-обзор <b>Smart-часов DZ-09</b></h1>
     	<div class="contain">
     	 <div class="photo__box">
 		      <a class="example-image-link" href="<?php bloginfo('template_directory'); ?>/img/slides/1.jpg" data-lightbox="example-set" ><img class="example-image" src="<?php bloginfo('template_directory'); ?>/img/slides/1.jpg" alt=""/></a>
@@ -112,7 +107,7 @@
 	    <a data-toggle="modal" href="#callme" class="photo__but">Заказать сейчас</a>    
 		</div>
     </section>
-
+<a id="go_options" name="go_options"  class="internal_links"></a>
     <section class="options">
     	<h1>Технические характеристики</h1>
     	<div class="contain">
@@ -150,10 +145,10 @@
     		</div>
     	</div>
     </section>
-
+<a id="go_advantages" name="go_advantages"  class="internal_links"></a>
     <section class="advantages">
     	<div class="contain">
-    		<h1>5 преимуществ <b>Smart-часов GT-08</b>,<br>
+    		<h1>5 преимуществ <b>Smart-часов DZ-09</b>,<br>
 				которые Вы обязательно оцените</h1>	
 				<div class="advantages__block">
 					<div class="advantages__block__img">
@@ -215,7 +210,7 @@
 			</div>  
     	</div>
     </section>
-
+<a id="go_reviews" name="go_reviews"  class="internal_links"></a>
     <section class="reviews">
     	<div class="contain">
     		<h1>Почитайте <b>отзывы</b> тех, кто уже
@@ -310,7 +305,7 @@
 		<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="footer__phones">
-					<p>+38(096)09888993</p>
+					<p>+38(096)0988993</p>
 					<p>+38(063)7440889</p>
 				</div>
 			</div>
@@ -327,7 +322,7 @@
 	    <div class="modal-dialog">
 	        <div class="modal-header">
 	            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><!--&times;--></button>
-	            <h3>Закажите smart-часы GT-08
+	            <h3>Закажите smart-часы DZ-09
 						прямо <b>сейчас</b>, чтобы <br>
 						<b>получить скидку 27 %</b></h3>
 					
