@@ -387,8 +387,8 @@ span.wpcf7-not-valid-tip {
   .order__clock {
     display: block;
     position: relative;
-    height: 406px;
-    width: 100%;
+    height: 450px;
+    width: 92%;
     background-image: url("../img/clock1.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -398,12 +398,21 @@ span.wpcf7-not-valid-tip {
       position: absolute;
       top: -20px;
       right: -60px;
-      background-image: url("../img/orderPrice.png");
+      background-image: url("../img/orderPrice-1.png");
       background-repeat: no-repeat;
       background-size: cover;
       width: 164px;
       height: 163px;
       z-index: 9; }
+    .order__clock h2 {
+      color: #e51825;
+      text-align: center;
+      position: absolute;
+      bottom: 0;
+      margin: 0;
+      left: 30px;
+      font-family: "LatoRegular";
+      font-size: 67px; }
   .order__options {
     display: block;
     position: relative;
