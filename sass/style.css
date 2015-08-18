@@ -55,7 +55,7 @@ body {
   min-width: 1167px; }
 
 .contain {
-  width: 1167px;
+  width: 1137px;
   display: block;
   margin: 0 auto;
   position: relative; }
@@ -191,6 +191,15 @@ span.wpcf7-not-valid-tip {
       text-decoration: none;
       background: white; }
 
+@media only screen and (max-width: 1200px) {
+  .header {
+    position: absolute;
+    width: 1167px; }
+    .header h1 {
+      font-size: 35px; }
+
+  .navMenu ul a li {
+    font-size: 17px; } }
 .footer {
   display: block;
   float: left;
@@ -253,6 +262,11 @@ span.wpcf7-not-valid-tip {
       text-decoration: none;
       background: white; }
 
+@media only screen and (max-width: 1200px) {
+  .footer h1 {
+    font-size: 35px; }
+  .footer h4 {
+    font-size: 18px; } }
 .modal-dialog {
   width: 400px;
   display: block;
@@ -560,7 +574,7 @@ span.wpcf7-not-valid-tip {
   border-image: url("../img/bordBot.png") 70;
   border-top: 0; }
   .photo__box {
-    margin: 0 39px; }
+    margin: 0 24px; }
   .photo__but, .options__but {
     float: right;
     width: 330px;
