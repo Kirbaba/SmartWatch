@@ -13,3 +13,20 @@ a.example-image-link img {
 	display: block;
 	position: relative;
 }
+.flip-clock-divider .flip-clock-label {
+    position: absolute;
+    bottom: 10px;
+    right: -67px;
+    color: #fff;
+    text-shadow: none;
+}
+.flip-clock-wrapper ul li a div div.inn {
+	background-color: #595959;
+}
+
+.flip-clock-wrapper {
+    text-align: center;
+    position: relative;
+    width: 76%;
+    margin: 0 auto;
+}

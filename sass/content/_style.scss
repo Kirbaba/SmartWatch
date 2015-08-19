@@ -11,7 +11,7 @@
 	h1 {
 		color: #fff;
 		font-size: 50px;
-		display: block;
+		display: inline-block;
 		width: 40%;
 		font-family: "LatoLight";
 		text-align: left;
@@ -168,6 +168,7 @@
 			@include border-radius(6px / 6px 6px 6px 6px);
 			@include background-clip(padding-box);
 			background-color: #fff;
+			color: #000;
 		}
 		&:hover, &:active, &:focus {
 			outline: none;

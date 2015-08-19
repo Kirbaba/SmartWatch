@@ -46,6 +46,18 @@
   src: url("../fonts/LatoLightItalic/LatoLightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/LatoLightItalic/LatoLightItalic.woff") format("woff"), url("../fonts/LatoLightItalic/LatoLightItalic.ttf") format("truetype");
   font-style: normal;
   font-weight: normal; }
+.clockContainer {
+  display: inline-block;
+  width: 55%;
+  position: absolute;
+  bottom: -65px;
+  right: 0px; }
+  .clockContainer h2 {
+    color: #FFF;
+    font-size: 40px;
+    font-family: "LatoBold";
+    text-align: center; }
+
 html,
 body {
   margin: 0;
@@ -308,6 +320,9 @@ span.wpcf7-not-valid-tip {
     opacity: 1;
     outline: none; }
 
+.wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok {
+  color: #fff; }
+
 .slide {
   display: block;
   position: relative;
@@ -320,7 +335,7 @@ span.wpcf7-not-valid-tip {
   .slide h1 {
     color: #fff;
     font-size: 50px;
-    display: block;
+    display: inline-block;
     width: 40%;
     font-family: "LatoLight";
     text-align: left; }
@@ -469,7 +484,8 @@ span.wpcf7-not-valid-tip {
       border-radius: 6px/6px 6px 6px 6px;
       -o-background-clip: padding-box;
       background-clip: padding-box;
-      background-color: #fff; }
+      background-color: #fff;
+      color: #000; }
     .order__form:hover, .order__form:active, .order__form:focus {
       outline: none; }
     .order__form__sub, .photo__but, .options__but {

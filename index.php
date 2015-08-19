@@ -45,6 +45,11 @@
 	<section class="slide">
 		<div class="contain">
 			<h1><b>Smart-часы</b> DZ-09 с видео-камерой всего <b>1990</b> грн.</h1>
+			<div class="clockContainer">
+				<h2>До конца акции осталось:</h2>
+				<div class="clock"></div>
+			</div>
+			
 			<a data-toggle="modal" href="#callme" class="slide__but">Оформить заказ по акции</a>
 		</div>
 	</section>
