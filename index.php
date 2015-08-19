@@ -74,7 +74,7 @@
 						прямо <b>сейчас</b>, чтобы <br>
 						<b>получить скидку 30 %</b></h3>
 					
-						<?php echo do_shortcode("[contact-form-7 id='64' title='buy_form']"); ?>
+						<?php echo do_shortcode("[contact-form-7 id='5' title='buy_form']"); ?>
 
 						<p>100% гарантии<br>конфиденциальности данных</p>
 					</div>
@@ -331,7 +331,7 @@
 						прямо <b>сейчас</b>, чтобы <br>
 						<b>получить скидку 30 %</b></h3>
 					
-						<?php echo do_shortcode("[contact-form-7 id='64' title='buy_form']"); ?>
+						<?php echo do_shortcode("[contact-form-7 id='5' title='buy_form']"); ?>
 						<p>100% гарантии<br>конфиденциальности данных</p>
 	            
 	        </div>
