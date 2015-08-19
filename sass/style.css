@@ -321,17 +321,16 @@ span.wpcf7-not-valid-tip {
     color: #fff;
     font-size: 50px;
     display: block;
-    width: 75%;
-    margin: 0 auto;
+    width: 40%;
     font-family: "LatoLight";
-    text-align: center; }
+    text-align: left; }
     .slide h1 b {
       font-family: "LatoBold"; }
   .slide__but {
     display: block;
     width: 327px;
     height: 49px;
-    margin: 25px auto;
+    margin: 25px 0;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;

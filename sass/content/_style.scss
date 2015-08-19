@@ -12,10 +12,9 @@
 		color: #fff;
 		font-size: 50px;
 		display: block;
-		width: 75%;
-		margin: 0 auto;
+		width: 40%;
 		font-family: "LatoLight";
-		text-align: center;
+		text-align: left;
 		b {
 			font-family: "LatoBold";
 		}
@@ -25,7 +24,7 @@
 		display: block;
 		width: 327px;
 		height: 49px;
-		margin: 25px auto;
+		margin: 25px 0;
 		@include border-radius(5px);
 		@include background-clip(padding-box);
 		background-color: #272727;
